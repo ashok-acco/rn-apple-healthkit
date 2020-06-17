@@ -212,6 +212,8 @@
         return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryZinc];
     } else if([@"Water" isEqualToString:key]) {
         return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryWater];
+    }else if ([@"DistanceSwimming" isEqualToString: key]) {
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDistanceSwimming];
     }
     
     // Sleep
